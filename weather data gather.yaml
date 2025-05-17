@@ -20,8 +20,7 @@ weather parameters:
     - direction  # maps to wind_direction_{level}hPa
   levels:
     - 1000
-    - 975
-    - 900
+    - 925
     - 850
 
 locations:
