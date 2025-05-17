@@ -1,9 +1,4 @@
-# weather‐data-gather.yaml
----
-# How often to poll the API
 frequency: hourly
-
-# Which forecast models to request
 models:
   - id: best_match
     name: Best Match
@@ -18,20 +13,16 @@ models:
   - id: gfs_seamless
     name: GFS Seamless
 
-# Which parameters (and pressure levels) you want back
-parameters:
+weather parameters:
   wind:
-    # you’ll request both of these fields
     - speed      # maps to wind_speed_{level}hPa
     - direction  # maps to wind_direction_{level}hPa
-    # the set of pressure levels, in hPa
-    levels:
-      - 1000
-      - 975
-      - 900
-      - 850
+  levels:
+    - 1000
+    - 975
+    - 900
+    - 850
 
-# The points you’ll sample around the UK
 locations:
   - name: Wether Fell
     latitude: 54.28917
