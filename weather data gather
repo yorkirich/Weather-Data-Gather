@@ -1,0 +1,44 @@
+# weather‐data-gather.yaml
+---
+# How often to poll the API
+frequency: hourly
+
+# Which forecast models to request
+models:
+  - id: best_match
+    name: Best Match
+  - id: ecmwf_ifs025
+    name: ECMWF IFS 0.25°
+  - id: icon_seamless
+    name: ICON Seamless
+  - id: ukmo_seamless
+    name: UKMO Seamless
+  - id: ukmo_uk_deterministic_2km
+    name: UKMO UK Deterministic 2 km
+  - id: gfs_seamless
+    name: GFS Seamless
+
+# Which parameters (and pressure levels) you want back
+parameters:
+  wind:
+    # you’ll request both of these fields
+    - speed      # maps to wind_speed_{level}hPa
+    - direction  # maps to wind_direction_{level}hPa
+    # the set of pressure levels, in hPa
+    levels:
+      - 1000
+      - 975
+      - 900
+      - 850
+
+# The points you’ll sample around the UK
+locations:
+  - name: Wether Fell
+    latitude: 54.28917
+    longitude: -2.1757
+  - name: Dumochter Pass
+    latitude: 56.86722
+    longitude: -4.24748
+  - name: Long Mynd
+    latitude: 52.51847
+    longitude: -2.88154
