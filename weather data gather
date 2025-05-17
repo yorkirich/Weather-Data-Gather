@@ -42,3 +42,6 @@ locations:
   - name: Long Mynd
     latitude: 52.51847
     longitude: -2.88154
+  - name: Witchieknowe
+    latitude: 55.52258
+    longitude: -300987
