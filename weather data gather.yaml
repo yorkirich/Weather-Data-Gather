@@ -3,14 +3,12 @@ frequency: hourly
 models:
   - id: best_match
     name: Best Match
-  - id: ecmwf_ifs025
-    name: ECMWF IFS 0.25°
+  - id: ecmwf_aifs025_single
+    name: ECMWF AIFS 025 degree single
   - id: icon_seamless
     name: ICON Seamless
   - id: ukmo_seamless
     name: UKMO Seamless
-  - id: ukmo_uk_deterministic_2km
-    name: UKMO UK Deterministic 2 km
   - id: gfs_seamless
     name: GFS Seamless
 
