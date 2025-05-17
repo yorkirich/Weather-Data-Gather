@@ -25,12 +25,44 @@ locations:
   - name: Wether Fell
     latitude: 54.28917
     longitude: -2.1757
-  - name: Dumochter Pass
+    holfuy: yes
+  - name: Dumochter Pass (Highlands)
     latitude: 56.86722
     longitude: -4.24748
+    holfuy: yes
   - name: Long Mynd
     latitude: 52.51847
     longitude: -2.88154
-  - name: Witchieknowe
+    holfuy: yes
+  - name: Witchieknowe (nr Tinto)
     latitude: 55.52258
     longitude: -3.00987
+    holfuy: yes
+  - name: Cross Fell
+    latitude: 54.703883
+    longitude: -2.483347
+    holfuy: no
+  - name: Mam Tor
+    latitude: 53.348686
+    longitude: -1.811177
+    holfuy: no
+  - name: Llangollen
+    latitude: 52.95547
+    longitude: -3.13611
+    holfuy: yes
+  - name: Rutland
+    latitude: 52.629298
+    longitude: -0.608562
+    holfuy: no
+  - name: Blorenge
+    latitude: 51.804336
+    longitude: -3.055938
+    holfuy: yes
+  - name: Worcester Beacon
+    latitude: 52.104467
+    longitude: -2.338594
+    holfuy: no
+  - name: Milek Hill
+    latitude: 51.374793
+    longitude: -1.851531
+    holfuy: no
