@@ -14,8 +14,8 @@ models:
 
 weather parameters:
   wind:
-    - speed      # maps to wind_speed_{level}hPa
-    - direction  # maps to wind_direction_{level}hPa
+    - speed
+    - direction
   levels:
     - 1000
     - 925
